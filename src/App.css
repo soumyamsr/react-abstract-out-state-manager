@@ -1,0 +1,19 @@
+.content-section {
+  padding: 80px 10px 10px;
+  display: flex;
+  gap: 20px;
+}
+.products-container {
+  background: #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  flex: 1;
+  padding: 10px;
+}
+.cart-summary {
+  width: 300px;
+  background: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
