@@ -1,0 +1,27 @@
+.stepper-control {
+  border: 1px solid #8080809e;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.stepper-control button {
+  font-size: 20px;
+  min-height: 20px;
+  min-width: 40px;
+  margin: 5px;
+}
+
+.stepper-control button:first-child:after {
+  content: '\002B';
+}
+
+.stepper-control button:last-child:after {
+  content: '\2212';
+}
+
+.stepper-value {
+  font-size: 18px;
+  min-height: 20px;
+  padding: 0 10px;
+}

@@ -1,0 +1,3 @@
+const MAX_ITEM_QUANTITY = 10;
+
+export { MAX_ITEM_QUANTITY };

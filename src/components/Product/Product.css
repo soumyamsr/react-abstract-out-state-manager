@@ -1,0 +1,33 @@
+.product-block {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #c3c0c0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-block:last-child {
+  margin-bottom: 0;
+}
+
+.product-block img {
+  max-height: 125px;
+  padding-right: 30px;
+}
+
+.description {
+  padding: 5px 5px;
+  font-size: 18px;
+}
+
+.product-price {
+  padding: 5px 5px 10px;
+  font-size: 21px;
+}
+
+.product-price span {
+  font-size: 13px;
+  position: relative;
+  top: -.3em;
+  padding-right: 1px;
+}

@@ -1,0 +1,40 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #009688b0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5px 25px;
+}
+
+.company-logo {
+  height: 43px;
+}
+
+.cart-block {
+  padding-top: 23px;
+}
+
+.cart-block span {
+  position: absolute;
+  top: 6px;
+  right: 26px;
+  font-weight: 600;
+  color: #b02f07;
+  padding: 2px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #e7dede;
+  min-width: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-block img {
+  height: 28px;
+}
