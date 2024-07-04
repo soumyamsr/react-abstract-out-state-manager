@@ -1,5 +1,9 @@
 # react-abstract-out-state-manager
-Abstracting out state manager from react components, which will help in switching state managers
+Abstracting out state manager from react components, which will help in switching state managers.
+
+Currently it has options to switch between below state managers
+- Zustand
+- Redux Toolkit
 
 ## Installation
 
