@@ -7,7 +7,7 @@ Currently it has options to switch between below state managers
 
 ## Installation
 
-To get started with the project first **clone** the project from gitlab repository
+To get started with the project first **clone** the project from github repository
 
 after cloning, do package installation
 

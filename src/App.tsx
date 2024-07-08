@@ -1,17 +1,17 @@
-import './App.css';
-import { Header } from './components/Header';
-import { Products } from './components/Products';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Layout } from './pages/Layout';
+import { Home } from './pages/Home';
 
 export const App = () => {
     return (
-        <div className="main-body">
-            <Header />
-            <section className="content-section">
-                <article className="products-container">
-                    <Products />
-                </article>
-                <article className="cart-summary">Cart Summary</article>
-            </section>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<Home />} />
+                    {/* <Route path="/cart" element={<Cart />} />
+          <Route path="/order" element={<Order />} /> */}
+                </Route>
+            </Routes>
+        </Router>
     );
 };

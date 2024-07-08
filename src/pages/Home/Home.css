@@ -1,0 +1,11 @@
+.homepage-section {
+  display: flex;
+  gap: 20px;
+}
+.products-container {
+  background: #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  flex: 1;
+  padding: 10px;
+}

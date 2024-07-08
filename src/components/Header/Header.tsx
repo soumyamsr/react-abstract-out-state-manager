@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useCart } from '../../store';
 import './Header.css';
 import companyLogo from '../../images/logo.png';
@@ -8,12 +9,14 @@ export const Header = () => {
 
     return (
         <section className="header-container">
-            <img
-                className="company-logo"
-                src={companyLogo}
-                alt="CompnayName"
-                aria-label="company logo"
-            />
+            <Link to="/">
+                <img
+                    className="company-logo"
+                    src={companyLogo}
+                    alt="CompnayName"
+                    aria-label="company logo"
+                />
+            </Link>
             <article className="cart-block">
                 <img src={cartIcon} alt="cart" aria-label="cart icon" />
                 <span>{totalItems}</span>
